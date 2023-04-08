@@ -138,13 +138,33 @@ body > div.header > nav > a > font{
 
 /* REGISTRATION FORM CSS  */
 
-.registration-form
+.registration-container{
+    /* border: 2px solid black; */
+    display: inline-flex;
+    height: 600px;
+    width: 100%;
+    font-family: Quicksand;
+}
+.image-container{
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.form-container
 {
-    border: 2px solid black;
-    height: auto;
-    width : 30%;
-    margin: auto;
-    margin-top: 30px;
-    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius:10px ;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 10px;
+    width:500px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    background-color: #f0f0f0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }

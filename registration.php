@@ -11,7 +11,7 @@
     <title>Registration</title>
 </head>
 
-<body>
+<body >
     <nav class="navbar sticky-top navbar-expand-md">
         <a class="navbar-brand fs-3 ms-3 " href="index.html">
             <img class="logo" src="assets/IMG/placeholder.png" alt="" height="30px" width="35px">
@@ -19,37 +19,43 @@
             <font color="#13375b">pickNdrop</font>
         </a>
     </nav>
-    <div class="registration-form">
-        <h2>Register Here!</h2>
-        <form action="register.php" method="post">
-            <label><b>Enter First Name:</b></label><br>
-            <input type="text" name="fname" required /><br /><br>
+    <div class="registration-container">
+        <div class="image-container">
+            <img src="./assets/IMG/registration.jpg" alt="" srcset="" height="500px" width="60%">
+        </div>
+        <div class="form-container">
+            <form action="register.php" method="post">
+            <h2>Register Here!</h2>
+                <label><b>Enter First Name:</b></label><br>
+                <input type="text" name="fname" placeholder="First name" required /><br /><br>
 
-            <label><b>Enter Last Name:</b></label><br>
-            <input type="text" name="lname" required><br /><br>
+                <label><b>Enter Last Name:</b></label><br>
+                <input type="text" name="lname" placeholder="Last name" required><br /><br>
 
-            <label><b>Enter Email:</b></label><br>
-            <input type="text" name="email" required><br /><br>
+                <label><b>Enter Email:</b></label><br>
+                <input type="text" name="email" placeholder="demo@gmail.com" required><br /><br>
 
-            <label><b> Enter Date of Birth:</b></label><br>
-            <input type="date" name="dob" id="dob" required><br><br>
+                <label><b> Enter Date of Birth:</b></label><br>
+                <input type="date" name="dob" id="dob" required><br><br>
 
-            <label><b>Enter Gender:</b></label><br>
-            <select name="gender" required>
-                <option value="gender">Gender</option>
-                <option value="male">Male</option>
-                <option value="femail">Female</option>
-                <option value="other">Other</option>
-            </select><br><br>
+                <label><b>Enter Gender:</b></label><br>
+                <select name="gender" required>
+                    <option value="gender">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="femail">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
 
-            <label><b>Set Password:</b></label><br>
-            <input type="password" name="password" required><br /><br>
+                <label><b>Set Password:</b></label><br>
+                <input type="password" name="password" placeholder="********" required><br /><br>
 
-            <input type="submit" name="submit" value=" REGISTER NOW " />
-            <a href="login.php">
-                <h3>Alredy have an account?</h3>
-            </a>
-        </form>
+                <input type="submit" name="submit" value=" REGISTER NOW " /><br>
+                <a href="login.php">
+                    already have an account?
+                </a>
+            </form>
+        </div>
+
         <script>
 
         </script>
