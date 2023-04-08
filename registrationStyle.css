@@ -1,0 +1,10 @@
+.registration-form
+{
+    overflow: hidden;
+    border: 2px solid black;
+    height: auto;
+    width : 30%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
