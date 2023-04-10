@@ -161,10 +161,44 @@ body > div.header > nav > a > font{
     margin-left: 150px;
     padding: 10px;
     width:500px ;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     text-align: center;
     background-color: #f0f0f0;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+#btn1:hover{
+    background-color: rgb(66, 201, 66);;
+    color: white;
+    border: none;
+}
+
+/* LOGIN FORM CSS */
+
+.login-container{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.container{
+    border-radius:10px;
+    width: 50%;
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Quicksand;
+}
+
+.login-image{
+    width: 50%;
+    text-align: center;
+}
+
+#btn2:hover{
+    background-color: rgb(66, 201, 66);;
+    color: white;
+    border: none;
 }
