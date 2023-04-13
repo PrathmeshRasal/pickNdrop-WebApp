@@ -21,7 +21,7 @@
     </nav>
     <div class="registration-container">
         <div class="image-container">
-            <img src="./assets/IMG/registration.jpg" alt="" srcset="" height="500px" width="60%">
+            <img src="./IMG/registration.jpg" alt="" srcset="" height="500px" width="60%">
         </div>
         <div class="form-container d-flex align-items-center justify-content-center border shadow">
             <form action="register.php" method="post">

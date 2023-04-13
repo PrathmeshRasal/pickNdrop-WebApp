@@ -53,7 +53,7 @@ body > div.header > nav > a > font{
     justify-content: end;
     align-items: end;
     /* border: 1px solid black; */
-    background-image: url('./assets/IMG/homepage.jpg');
+    background-image: url('/assets/IMG/homepage.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
