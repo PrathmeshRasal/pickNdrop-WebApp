@@ -34,7 +34,7 @@
             </form>
         </div>
         <div class="login-image">
-            <img src="./assets/IMG/loginbg.jpg" alt="" height="400px" width="60%" >
+            <img src="./IMG/loginbg.jpg" alt="" height="400px" width="60%" >
         </div>
     </div>
 
