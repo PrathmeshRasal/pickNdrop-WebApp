@@ -1,0 +1,40 @@
+<?php
+session_start();
+$fname= $_SESSION["name"];
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label><b>Phone no:</b></label><br>
+            <input type="number" name="pno" placeholder="Enter PhoneNo" required /><br /><br>
+    
+            <label><b>Bike's Company:</b></label><br>
+            <input type="text" name="bike" placeholder="Enter Bike's Company" required /><br /><br>
+    
+            <label><b>Form:</b></label><br>
+            <input type="text" name="from" placeholder="Leaving From" required /><br /><br>
+    
+            <label><b>To:</b></label><br>
+            <input type="text" name="to" placeholder="Going To" required /><br /><br>
+    
+            <label><b> Date:</b></label><br>
+            <input type="date" name="date" id="date" required><br><br>
+    
+            <label><b> Time:</b></label><br>
+            <input type="time" name="time" id="time" required><br><br>
+    
+            <label><b> Submit your Lisence:</b></label><br>
+            <input type="file" name="lic" id="lic" required><br><br>
+        </form>
+    </div>
+   
+</body>
+</html>
